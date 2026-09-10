@@ -1,0 +1,60 @@
+.local-gerenciamentomatriculas-search-wrap {
+    width: 100%;
+    max-width: 1100px;
+}
+
+.local-gerenciamentomatriculas-autocomplete,
+.local-gerenciamentomatriculas-autocomplete [data-fieldtype="autocomplete"],
+.local-gerenciamentomatriculas-autocomplete .form-autocomplete-selection {
+    width: 100%;
+}
+
+.local-gerenciamentomatriculas-autocomplete {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#local-gerenciamentomatriculas-user-submit {
+    order: 100;
+    align-self: flex-start;
+    width: 100%;
+}
+
+.local-gerenciamentomatriculas-autocomplete .form-autocomplete-selection {
+    order: 10;
+    min-height: 44px;
+    padding: 5px 8px;
+    border-radius: 4px;
+}
+
+.local-gerenciamentomatriculas-autocomplete label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.local-gerenciamentomatriculas-autocomplete input[role="combobox"],
+.local-gerenciamentomatriculas-autocomplete .form-autocomplete-input {
+    width: 100% !important;
+    min-width: 360px !important;
+    min-height: 32px;
+}
+
+.local-gerenciamentomatriculas-users-table td:last-child {
+    white-space: nowrap;
+}
+
+.local-gerenciamentomatriculas-action-card {
+    height: 100%;
+}
+
+@media (max-width: 767.98px) {
+    .local-gerenciamentomatriculas-autocomplete input[role="combobox"],
+    .local-gerenciamentomatriculas-autocomplete .form-autocomplete-input {
+        min-width: 220px !important;
+    }
+
+    .local-gerenciamentomatriculas-users-table td:last-child {
+        white-space: normal;
+    }
+}
