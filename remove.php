@@ -10,7 +10,7 @@
  * Removal and suspension page for one or more students.
  *
  * @package    local_gerenciamentomatriculas
- * @copyright  2026
+ * @copyright  2026 Júlia Gabriela Gomes da Silva
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -291,7 +291,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 
 $maxbatch = operation_guard::MAX_REMOVE_BATCH_SIZE;
-$batchwarningjson = json_encode(get_string('safetyremovebatchclient', 'local_gerenciamentomatriculas', $maxbatch));
+$batchwarningjson = json_encode(get_string('safetybatchclient', 'local_gerenciamentomatriculas', $maxbatch));
 $PAGE->requires->js_init_code(<<<JS
 require(['jquery'], function($) {
     var maxBatch = {$maxbatch};

@@ -1,12 +1,11 @@
 # Histórico de versões
 
-## 1.2.1 — 2026-09-02
+## 1.2.1 — 2026-10-15
 
-- Botão da seleção de alunos fixado abaixo do campo de autocomplete.
-- Nome grande do aluno removido da tela de escolha da operação; a identificação permanece na tabela.
-- Limite de inclusão ampliado para 60 salas por operação.
-- Limite de retirada/suspensão ampliado para 300 inscrições por operação, suficiente para 15 alunos com 19 disciplinas.
-- O tamanho de cada requisição interna permanece limitado a 15 alterações para reduzir risco de Gateway Timeout.
+- Edição pessoal para distribuição em Git, com autoria de Júlia Gabriela Gomes da Silva.
+- Rótulos de pesquisa usam “usuário”, sem pressupor CPF como identificador.
+- README com instruções para repositório e limites da validação realizada.
+- Funcionalidades da versão 1.2.0 preservadas.
 
 ## 1.2.0 — 2026-09-02
 
@@ -71,7 +70,7 @@
 ## 1.0.1 — 2026-09-01
 
 - Autocomplete nativo do Moodle na página **Localizar aluno**.
-- Sugestões por nome completo, usuário/CPF ou e-mail, limitadas a 20 resultados.
+- Sugestões por nome completo, usuário ou e-mail, limitadas a 20 resultados.
 - Abertura direta do gerenciamento ao selecionar o aluno.
 - Pesquisa normal preservada como fallback automático em caso de falha no serviço dinâmico.
 - Serviço AJAX protegido pela permissão `moodle/site:configview`.

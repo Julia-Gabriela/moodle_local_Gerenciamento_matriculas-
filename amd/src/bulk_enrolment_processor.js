@@ -9,7 +9,7 @@
  * Processes a confirmed student/course matrix as short sequential requests.
  *
  * @module     local_gerenciamentomatriculas/bulk_enrolment_processor
- * @copyright  2026
+ * @copyright  2026 Júlia Gabriela Gomes da Silva
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

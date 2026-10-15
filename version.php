@@ -10,14 +10,14 @@
  * Version details for the Gerenciamento de matrículas plugin.
  *
  * @package    local_gerenciamentomatriculas
- * @copyright  2026
+ * @copyright  2026 Júlia Gabriela Gomes da Silva
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'local_gerenciamentomatriculas';
-$plugin->version   = 2026090203;
+$plugin->version   = 2026101500;
 $plugin->requires  = 2025041400; // Moodle 5.0.
 $plugin->maturity  = MATURITY_BETA;
 $plugin->release   = '1.2.1';

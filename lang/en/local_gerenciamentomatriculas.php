@@ -10,7 +10,7 @@
  * English strings.
  *
  * @package    local_gerenciamentomatriculas
- * @copyright  2026
+ * @copyright  2026 Júlia Gabriela Gomes da Silva
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -187,8 +187,6 @@ $string['safetyreadfailed'] = 'The required data could not be read. The feature 
 $string['safetyoperationfailed'] = 'The operation was stopped safely. Check Moodle logs to identify the unavailable process.';
 $string['safetydependencymissing'] = 'A required Moodle dependency is missing. No changes were made.';
 $string['safetybatchclient'] = 'For safety, select at most {$a} courses per operation.';
-$string['safetyremovebatchlimit'] = 'For safety, select at most {$a} enrolments per operation. No changes were made.';
-$string['safetyremovebatchclient'] = 'You may select at most {$a} enrolments per operation.';
 $string['courseidfallback'] = 'Course ID {$a}';
 $string['enrolmentidfallback'] = 'Enrolment ID {$a}';
 $string['safetycourseoperationfailed'] = '{$a}: the required process failed and this course was skipped safely.';

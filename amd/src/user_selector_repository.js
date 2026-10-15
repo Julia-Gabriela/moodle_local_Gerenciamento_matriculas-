@@ -9,7 +9,7 @@
  * AJAX data source for the user selector.
  *
  * @module     local_gerenciamentomatriculas/user_selector_repository
- * @copyright  2026
+ * @copyright  2026 Júlia Gabriela Gomes da Silva
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

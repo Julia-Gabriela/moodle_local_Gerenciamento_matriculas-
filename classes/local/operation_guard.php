@@ -10,7 +10,7 @@
  * Fail-safe guard for enrolment management operations.
  *
  * @package    local_gerenciamentomatriculas
- * @copyright  2026
+ * @copyright  2026 Júlia Gabriela Gomes da Silva
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -37,10 +37,10 @@ class operation_guard {
     public const MAX_BATCH_SIZE = 20;
 
     /** Maximum number of courses selected for one multi-student addition. */
-    public const MAX_ADD_COURSE_BATCH_SIZE = 60;
+    public const MAX_ADD_COURSE_BATCH_SIZE = 35;
 
     /** Maximum number of enrolment removals/suspensions selected in one operation. */
-    public const MAX_REMOVE_BATCH_SIZE = 300;
+    public const MAX_REMOVE_BATCH_SIZE = 35;
 
     /** Maximum number of students selected for the same enrolment operation. */
     public const MAX_USER_BATCH_SIZE = 15;
@@ -184,11 +184,7 @@ class operation_guard {
             return get_string('safetynoselection', 'local_gerenciamentomatriculas');
         }
         if ($count > self::MAX_REMOVE_BATCH_SIZE) {
-            return get_string(
-                'safetyremovebatchlimit',
-                'local_gerenciamentomatriculas',
-                self::MAX_REMOVE_BATCH_SIZE
-            );
+            return get_string('safetybatchlimit', 'local_gerenciamentomatriculas', self::MAX_REMOVE_BATCH_SIZE);
         }
 
         return null;

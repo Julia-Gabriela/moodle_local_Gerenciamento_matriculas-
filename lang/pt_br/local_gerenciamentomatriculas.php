@@ -10,7 +10,7 @@
  * Portuguese strings.
  *
  * @package    local_gerenciamentomatriculas
- * @copyright  2026
+ * @copyright  2026 Júlia Gabriela Gomes da Silva
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -26,7 +26,7 @@ $string['tabadd'] = 'Adicionar em salas';
 $string['addenrolments:title'] = 'Adicionar aluno em várias salas';
 $string['student'] = 'Aluno';
 $string['students'] = 'Alunos';
-$string['username'] = 'Usuário/CPF';
+$string['username'] = 'Usuário';
 $string['email'] = 'E-mail';
 $string['accountstatus'] = 'Status da conta';
 $string['accountsuspended'] = 'Suspensa';
@@ -122,7 +122,7 @@ $string['suspendedaccountaddwarning'] = 'Um ou mais alunos selecionados estão c
 $string['selectuser:title'] = 'Localizar aluno';
 $string['selectuser:help'] = 'Pesquise o aluno e abra o gerenciamento para adicionar, suspender ou retirar inscrições.';
 $string['selectuser:multihelp'] = 'Selecione até {$a} alunos por vez.';
-$string['searchuser'] = 'Nome, usuário/CPF ou e-mail';
+$string['searchuser'] = 'Nome, usuário ou e-mail';
 $string['searchusersfield'] = 'Alunos';
 $string['searchuserplaceholder'] = 'Digite pelo menos 2 caracteres';
 $string['noselecteduser'] = 'Digite para localizar e selecionar um aluno';
@@ -187,8 +187,6 @@ $string['safetyreadfailed'] = 'Não foi possível consultar os dados necessário
 $string['safetyoperationfailed'] = 'A operação foi interrompida de forma segura. Consulte os logs do Moodle para identificar o processo indisponível.';
 $string['safetydependencymissing'] = 'Uma dependência obrigatória do Moodle está ausente. Nenhuma alteração foi executada.';
 $string['safetybatchclient'] = 'Por segurança, selecione no máximo {$a} salas por operação.';
-$string['safetyremovebatchlimit'] = 'Por segurança, selecione no máximo {$a} inscrições por operação. Nenhuma alteração foi executada.';
-$string['safetyremovebatchclient'] = 'Você pode selecionar no máximo {$a} inscrições por operação.';
 $string['courseidfallback'] = 'Curso de ID {$a}';
 $string['enrolmentidfallback'] = 'Inscrição de ID {$a}';
 $string['safetycourseoperationfailed'] = '{$a}: o processo necessário falhou e esta sala foi ignorada com segurança.';

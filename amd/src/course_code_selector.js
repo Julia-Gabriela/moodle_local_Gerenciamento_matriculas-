@@ -9,7 +9,7 @@
  * Enhances course search with Moodle's native autocomplete.
  *
  * @module     local_gerenciamentomatriculas/course_code_selector
- * @copyright  2026
+ * @copyright  2026 Júlia Gabriela Gomes da Silva
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
